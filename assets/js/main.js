@@ -4,7 +4,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-(function($) {
+// Slightly modified by MCP to be callable from Typescript.
+function html5UpLoad($) {
 
 	var	$window = $(window),
 		$head = $('head'),
@@ -259,4 +260,4 @@
 
 			});
 
-})(jQuery);
+};
