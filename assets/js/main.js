@@ -259,5 +259,5 @@ function html5UpLoad($) {
 				});
 
 			});
-
 };
+html5UpLoad(jQuery);
